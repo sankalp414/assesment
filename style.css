@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.heading{
+    font-family: 'Clash Display', sans-serif;
+    z-index: 2;
+    display: inline;
+}
+.gradient{
+    position: absolute;
+    z-index: -1;
+    bottom: 170px;
+    right: 630px;
+    rotate: 180deg;
+    width: 400px;
+}
+.sub__heading{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+}
+.links{
+    margin-top: 50px;
+    width: 50px;
+    
+}
+.navbar{
+    
+    display:  flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    
+}
+.nav__link{
+    display: flex;
+
+}
+
+.download__button{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.main__header{
+    display: grid;
+    grid-template-columns: repeat(2,20rem);
+    align-content: center;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header__graphics{
+    position: relative;
+    /* margin : 0px 500px; */
+    /* background-repeat: no-repeat; */
+    /* width: 500px; */
+    right: 95px;
+    bottom: 90px;
+    
+    
+}
+.starOne{
+    position: absolute;
+    top: 10px;
+    left: 980px;
+    width:30px;
+}
+.starTwo{
+    position: absolute;
+    width:30px;
+    top: 50px;
+    left: 10px;
+    rotate: 30deg;
+}
+.starThree{
+    position: absolute;
+    width: 30px;
+    left: 220px;
+    bottom: 20px;
+    rotate: 30deg;
+}
+.starFour{
+    position: absolute;
+    width: 30px;
+    bottom: 100px;
+    right: 350px;
+    rotate: 10deg;
+}
+.features{
+    display: flex;
+    margin-top: 100px;
+}
+.feature__gradient{
+    position: absolute;
+    right: -10px;
+    top: 820px;
+    z-index: -1;
+}
+.feature__heading{
+    color: #FF5555;
+     font-family: 'Clash Display', sans-serif; 
+     margin-top: 80px ;
+}
+.sub__heading__One{
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+}
+.point__discription{
+    margin-left:20px ;
+    font-family: 'Clash Display', sans-serif;
+    z-index: 1;
+    
+}
+.point__One{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 1;
+}
+.feature__main__heading{
+    font-family: 'Clash Display', sans-serif; 
+}
+.graphic{
+    width: 500px;
+}
+.tags{
+    width: 450px;
+}
+.gradient1{
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    rotate: 50deg;
+}
+.bg{
+    position: absolute;
+    top:-20px;
+    left: 164px;
+    
+    z-index: -1;
+}
+.first__graphic{
+    /* background-repeat: repeat-x; */
+    position: absolute;
+    margin-left: 100px;
+    /* margin-top: 50px; */
+    z-index: 3;
+
+}
+.second__graphic{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 50px;
+    z-index: 2;
+}
+.third__graphic{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 100px;
+    z-index: 1;
+}
